@@ -1,0 +1,187 @@
+ /*main page css
+/* General styling 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container div styling 
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #fff;
+  box-shadow: 0px 4px 8px  #1cbf8e; */
+
+
+/* Navigation bar styling 
+nav {
+  background-color:  #1cbf8e;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #17e124;
+}
+
+/* Active link styling 
+nav a.active {
+  background-color: #4CAF50;
+}
+
+/* Routes container styling 
+main {
+  padding: 20px;
+}
+
+/* Specific section styles 
+h1, h2, h3 {
+  color:  #1cbf8e;
+  text-align: center;
+}
+
+button {
+  background-color: #1cbf8e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1cbf8e;
+}
+
+/* Form styling 
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px  #1cbf8e;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #1cbf8e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1cbf8e;
+}
+
+/* Footer (optional) 
+footer {
+  background-color: #1cbf8e;
+  color: white;
+  text-align: center;
+  padding: 7px 0; 
+  position: fixed;
+  bottom: 0;
+  width: 87%;
+} */
+ /* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+/* Navigation bar styling */
+nav {
+  display: flex;
+  background-color: #838587;
+  padding: 15px;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.link {
+  display: flex; /* Aligns the links in a row */
+  align-items: center; /* Vertically centers the links */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #6c6e6f;
+  border-radius: 5px;
+}
+
+/* Main container */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  background-color: #8b8c8e;
+  color: #fff;
+  padding: 2px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+  }
+
+  nav a {
+      margin: 10px 0;
+  }
+}
